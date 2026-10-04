@@ -29,7 +29,3 @@ Documentación de los 12 protocolos faciales de la clínica, basados en AlumierM
 ## Nota
 
 Estos protocolos son guías clínicas de referencia. Cada variante señala condiciones de exclusión, suspensión o adaptación cuando corresponde (p. ej. no combinar peelings profesionales en la misma sesión salvo protocolo oficial que lo contemple, o suspender ante intolerancia). La valoración profesional individual siempre prevalece sobre la guía.
-
-## Herramientas internas
-
-- [**NOOR Hub**](noor-hub/README.md) — automatización de facturas de compra: Gmail → Drive por trimestres, registro de gastos, conciliación bancaria ("cargos sin factura") y envío trimestral a la gestoría.
