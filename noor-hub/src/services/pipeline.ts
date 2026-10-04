@@ -17,7 +17,7 @@ export async function runFullSync(clinicId: string, trigger: "button" | "cron") 
   } = { errors: [] };
 
   try {
-    out.gmail = await runGmailSync(clinicId, { trigger, maxDocuments: trigger === "cron" ? 60 : 25 });
+    out.gmail = await runGmailSync(clinicId, { trigger, maxDocuments: trigger === "cron" ? 30 : 15 });
   } catch (e) {
     out.errors.push(`Gmail: ${msg(e)}`);
   }

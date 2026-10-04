@@ -17,7 +17,8 @@
     "db:migrate": "drizzle-kit migrate",
     "db:studio": "drizzle-kit studio",
     "seed": "tsx scripts/seed.ts",
-    "sync": "tsx scripts/sync.ts"
+    "sync": "tsx scripts/sync.ts",
+    "vercel-build": "if [ -n \"$DATABASE_URL\" ]; then drizzle-kit migrate; fi && next build"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.131.0",

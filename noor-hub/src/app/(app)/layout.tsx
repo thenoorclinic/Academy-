@@ -1,6 +1,9 @@
 import Link from "next/link";
 import { requireContext } from "@/lib/context";
 
+// Las acciones largas (leer facturas con IA) necesitan hasta 5 min de ejecución.
+export const maxDuration = 300;
+
 const NAV = [
   { href: "/", label: "Panel" },
   { href: "/facturas", label: "Facturas" },

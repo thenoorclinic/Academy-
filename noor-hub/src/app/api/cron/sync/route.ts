@@ -4,7 +4,7 @@ import { db } from "@/db";
 import { audit } from "@/lib/audit";
 import { runFullSync } from "@/services/pipeline";
 
-export const maxDuration = 800;
+export const maxDuration = 300;
 
 /** Sincronización automática diaria (Vercel Cron → Authorization: Bearer CRON_SECRET). */
 export async function GET(req: Request) {
